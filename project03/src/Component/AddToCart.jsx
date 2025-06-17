@@ -41,9 +41,8 @@ export default function AddToCart() {
                                 </div>
                             </div>
                         ))
-                    ) : (
-                        <p className="no-products">No Product!</p>
-                    )}
+                    ) : <p className="no-products">No Product!</p>
+                    }
                 </div>
             </div>
         </div>

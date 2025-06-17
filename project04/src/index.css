@@ -1,0 +1,49 @@
+/* External CSS */
+
+.calc-box {
+  width: 280px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.calc-box h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.calc-box input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin: 4px;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #d5d5d5;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 16px;
+}
