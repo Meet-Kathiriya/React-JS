@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: #eee;
+}
+
+.task-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+}
+
+.task-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-input,
+.task-submit {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-submit {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-empty {
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+}
+
+.task-card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 4px solid #3b82f6;
+}
+
+.task-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.task-desc,
+.task-priority {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.task-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #10b981;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
